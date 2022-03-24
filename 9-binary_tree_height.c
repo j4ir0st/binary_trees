@@ -1,9 +1,10 @@
 #include "binary_trees.h"
-#define MAX(a,b) (((a)>(b))?(a):(b))
+#define MAX(a, b) (((a) > (b)) ? (a) : (b))
 
 /**
  * binary_tree_height - measures the height of a binary tree
  * @tree: tree to traverse
+ * Return: height of the tree
  */
 
 size_t binary_tree_height(const binary_tree_t *tree)
